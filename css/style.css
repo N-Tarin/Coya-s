@@ -51,6 +51,23 @@ a, button {
   transition: .3s;
 }
 
+/*アニメーション要素のスタイル*/
+/* 下からバージョン */
+.animation-bottom {
+	opacity : 0;
+	visibility: hidden;
+	transition: 3s;
+	transform: translateY(60px);
+}
+
+/*アニメーション要素までスクロールした時のスタイル*/
+.active-bottom {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
 
 /* header */
 .header {
