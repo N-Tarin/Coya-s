@@ -346,6 +346,7 @@ a, button {
 /* category */
 .category__container {
   width: 100%;
+  margin: 50px 0 160px;
 }
 
 .category__items {
@@ -396,37 +397,42 @@ a, button {
 }
 
 .-Earrings {
-  background-image: url(../images/shop1.jpg);
+  background-image: url(../images/category2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -130px;
   position: relative;
 }
 
 .-Pendant {
-  background-image: url(../images/shop1.jpg);
+  background-image: url(../images/category1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -130px;
   position: relative;
 }
 
 .-Bracelets {
-  background-image: url(../images/shop1.jpg);
+  background-image: url(../images/category3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -100px;
   position: relative;
 }
 
 .-Setcollection {
-  background-image: url(../images/shop1.jpg);
+  background-image: url(../images/category4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -70px;
   position: relative;
 }
 
 .-Homeware {
-  background-image: url(../images/shop1.jpg);
+  background-image: url(../images/category5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -130px;
   position: relative;
 }
 
@@ -434,6 +440,7 @@ a, button {
 /* about */
 .about {
   background-color: #ede3d7;
+  padding: 0 0 100px;
 }
 
 .about__container {
