@@ -8,41 +8,45 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
   <title>Document</title>
 </head>
 <body>
   <div class="body">
-    <section class="mv">
-      
-      <div class="mv__logo">
+    <header class="header">
+      <h1 class="header__logo">
         <img src="./images/logo.png" alt="">
-      </div><!-- /.mv__logo -->
-      
-      <nav class="mv__nav">
-        <ul class="mv__nav__items">
-          <li class="mv__nav__item">
+      </h1><!-- /.header__logo -->
+      <nav class="header__nav">
+        <ul class="header__nav__items">
+          <li class="header__nav__item -category">
+            <a href="">
+              Category 
+            </a>
+          </li><!-- /.header__nav__item -->
+          <li class="header__nav__item">
             <a href="">
               Information
             </a>
-          </li><!-- /.mv__nav__item -->
-          <li class="mv__nav__item">
-            <a href="">
-              Category
-            </a>
-          </li><!-- /.mv__nav__item -->
-          <li class="mv__nav__item">
+          </li><!-- /.header__nav__item -->
+          <li class="header__nav__item">
             <a href="">
               About us
             </a>
-          </li><!-- /.mv__nav__item -->
-        </ul><!-- /.mv__nav__items -->
-      </nav><!-- /.mv__nav -->
+          </li><!-- /.header__nav__item -->
+        </ul><!-- /.header__nav__items -->
+      </nav><!-- /.header__nav -->
+    </header><!-- /.header -->
 
+    <section class="mv">
+      <div class="mv__logo">
+        <img src="./images/logo.png" alt="">
+      </div><!-- /.mv__logo -->
     </section><!-- /.mv -->
 
     <section class="info">
-      <div class="wrapper">
-        <div class="container info__container">
+      <div class="info__wrapper">
+        <div class="info__container">
 
           <div class="info__titleWrapper">
             <h2 class="info__title">
@@ -52,6 +56,7 @@
               View more
             </button><!-- /.info__button -->
           </div><!-- /.info__titleWrapper -->
+
           <ul class="info__items">
             <li class="info__item">
               <p class="info__item__date">
@@ -149,108 +154,232 @@
 
 
     <section class="shop">
-      <div class="wrapper">
-        <div class="titleWrapper">
+      <div class="titleWrapper">
+        <div class="titleContainer">
           <h2 class="title">
             Collections
           </h2><!-- /.title -->
-        </div><!-- /.titleWrapper -->
+        </div><!-- /.titleContainer -->
+      </div><!-- /.titleWrapper -->
+
+      <div class="wrapper">
         <div class="container">
 
           <ul class="shop__items">
-            <li class="shop__item">
-              <img src="./images/shop2.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop1.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop3.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop4.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-            
-            <li class="shop__item">
-              <img src="./images/shop2.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop1.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop3.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
-  
-            <li class="shop__item">
-              <img src="./images/shop4.jpg" alt="">
-              <h3 class="shop__item__title">
-                Title
-              </h3><!-- /.shop__item__title -->
-              <p class="shop__item__price">
-                $15 (+ tax)
-              </p><!-- /.shop__item__price -->
-            </li><!-- /.shop__item -->
 
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+  
+            <li class="shop__item">
+              <img src="./images/shop2.jpg" alt="">
+              <h3 class="shop__item__title">
+                Freshwater Pearl × Glass Beads
+              </h3><!-- /.shop__item__title -->
+              <p class="shop__item__price">
+                $15 (+ tax)
+              </p><!-- /.shop__item__price -->
+              <div class="shop__item__buttonWrapper">
+                <button class="shop__item__button">
+                  Detail
+                </button><!-- /.shop__item__button -->
+              </div><!-- /.shop__item__buttonWrapper -->
+              <a href=""></a>
+            </li><!-- /.shop__item -->
+    
           </ul><!-- /.shop__items -->
+
+          <div class="shop__buttonWrapper">
+            <button class="shop__button">
+              View all
+            </button><!-- /.shop__button -->
+          </div><!-- /.shop__buttonWrapper -->
+
         </div><!-- /.container -->
       </div><!-- /.wrapper -->
     </section><!-- /.shop -->
 
 
-    <section class="profile">
+    <section class="category">
+      <div class="category__container">
+        <ul class="category__items">
+
+          <li class="category__item -Earrings">
+            <div class="category__item__titleWrapper">
+              <h3 class="category__item__title">
+                Earrings
+              </h3><!-- /.category__item__title -->
+            </div><!-- /.category__item__titleWrapper -->
+            <a href=""></a>
+          </li><!-- /.category__item -->
+
+          <li class="category__item -Pendant">
+            <div class="category__item__titleWrapper">
+              <h3 class="category__item__title">
+                Pendant
+              </h3><!-- /.category__item__title -->
+            </div><!-- /.category__item__titleWrapper -->
+            <a href=""></a>
+          </li><!-- /.category__item -->
+
+          <li class="category__item -Bracelets">
+            <div class="category__item__titleWrapper">
+              <h3 class="category__item__title">
+                Bracelets
+              </h3><!-- /.category__item__title -->
+            </div><!-- /.category__item__titleWrapper -->
+            <a href=""></a>
+          </li><!-- /.category__item -->
+
+          <li class="category__item -Setcollection">
+            <div class="category__item__titleWrapper">
+              <h3 class="category__item__title">
+                Set collection
+              </h3><!-- /.category__item__title -->
+            </div><!-- /.category__item__titleWrapper -->
+            <a href=""></a>
+          </li><!-- /.category__item -->
+
+          <li class="category__item -Homeware">
+            <div class="category__item__titleWrapper">
+              <h3 class="category__item__title">
+                homeware
+              </h3><!-- /.category__item__title -->
+            </div><!-- /.category__item__titleWrapper -->
+            <a href=""></a>
+          </li><!-- /.category__item -->
+
+        </ul><!-- /.category__items-->
+
+      </div><!-- /.container -->
+    </section><!-- /.category -->
+
+    <section class="about">
       <div class="wrapper">
-        <div class="container">
+        <div class="container about__container">
+
+          <img src="./images/about.jpg" alt="">
+          <div class="about__textWrapper">
+            <h4 class="about__title">
+              Karen
+            </h4><!-- /.about__title -->
+            <p class="about__text">
+              ナチュラル、グリーン、アロマなど自然体が好き。将来は海の近くでほのぼのとした生活を送るのが夢です。現在マレーシア在住4年目。趣味の延長で、ハンドメイドジュエリー始めました。ハンドメイド好きの方、海外好きの方、仲良くしてください。 
+              I love slow life :)
+            </p><!-- /.about__text -->
+          </div><!-- /.about__textWrapper -->
 
         </div><!-- /.container -->
       </div><!-- /.wrapper -->
-    </section><!-- /.profile -->
+    </section><!-- /.about -->
 
 
     <footer class="footer">
