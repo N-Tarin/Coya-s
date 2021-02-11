@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+  <title>Coya's Handmade</title>
 </head>
 <body>
   <div class="body">
@@ -30,13 +30,13 @@
           </li><!-- /.header__nav__item -->
 
           <li class="header__nav__item">
-            <a href="">
+            <a href="./information.html">
               Information
             </a>
           </li><!-- /.header__nav__item -->
 
           <li class="header__nav__item">
-            <a href="">
+            <a href="./about.html">
               About us
             </a>
           </li><!-- /.header__nav__item -->
@@ -102,7 +102,7 @@
             <h2 class="info__title">
               Information
             </h2><!-- /.info__title -->
-            <button class="info__button">
+            <button class="info__button" onclick="location.href='./information.html'" >
               View more
             </button><!-- /.info__button -->
           </div><!-- /.info__titleWrapper -->
@@ -204,16 +204,12 @@
 
 
     <section class="shop">
-      <div class="titleWrapper">
-        <div class="titleContainer">
+      <div class="wrapper">
+        <div class="container">
           <h2 class="title">
             Collections
           </h2><!-- /.title -->
-        </div><!-- /.titleContainer -->
-      </div><!-- /.titleWrapper -->
-
-      <div class="wrapper">
-        <div class="container">
+    
 
           <ul class="shop__items animation-bottom">
 
@@ -416,10 +412,17 @@
     </section><!-- /.category -->
 
     <footer class="footer">
+      <a href="https://www.instagram.com/artwork_coyas/?hl=ja">
+        <i class="-instagram fab fa-instagram"></i>
+      </a>
       <p class="footer__text">
-        &copy; 2021 Coya's Handmade
+        &copy; 2021,  
+        <a href="./index.html">
+          Coya's Handmade
+        </a>
       </p><!-- /.footer__text -->
     </footer><!-- /.footer -->
+
   </div><!-- /.body -->
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

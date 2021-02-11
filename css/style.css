@@ -2,6 +2,7 @@
   background-color: #ede3d7;
   color: #332f2f;
   font-family: 'EB Garamond', serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -16,34 +17,10 @@
   width: 100%;
 }
 
-.titleWrapper {
-  padding: 50px 0 30px;
-  position: relative;
-  z-index: 2;
-}
-
-.titleContainer {
-  text-align: center; 
-}
-
-.titleContainer::after {
-  border-bottom: 1px solid #332f2f;
-  bottom: 70px;
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-}
-
 .title {
-  display: inline-block;
-  background-color: #ede3d7;
   font-size: 40px;
-  padding: 20px;
-  position: relative;
   text-align: center;
-  z-index: 2;
+  padding: 70px 0 0;
 }
 
 a, button, input {
@@ -59,7 +36,7 @@ a, button, input {
 	opacity : 0;
 	visibility: hidden;
 	transition: 3s;
-	transform: translateY(60px);
+	transform: translateY(40px);
 }
 
 /*アニメーション要素までスクロールした時のスタイル*/
@@ -73,7 +50,7 @@ a, button, input {
 /* header */
 .header {
   background-color: #ede3d7;
-  height: 90px;
+  height: 85px;
   position: fixed;
   width: 100%;
   z-index: 4;
@@ -81,7 +58,7 @@ a, button, input {
 
 .header__logo {
   text-align: center;
-  padding: 10px 0 5px;
+  padding: 5px 0 5px;
 }
 
 .header__logo img {
@@ -113,7 +90,7 @@ a, button, input {
 .-category::after {
   content: "\f078";
   font-family: "fontAwesome";
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .category__nav {
@@ -292,7 +269,8 @@ a, button, input {
 }
 
 .intro__text {
-  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
   line-height: 1.8;
 }
 
@@ -306,17 +284,15 @@ a, button, input {
 }
 
 .shop__item {
-  border: 1px solid #ede3d7;
   margin: 0 0 70px;
   max-width: 230px;
-  padding: 10px;
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
 .shop__item:hover {
-  border: 1px solid #332f2f;
+  color: #e0bc75;
 }
 
 .shop__item:nth-child( n+5 ) {
@@ -405,6 +381,7 @@ a, button, input {
   height: 250px;
   margin: 0 auto;
   position: relative;
+  transition: all 0.3s;
   width: calc(100% / 3);
   z-index: 2;
   overflow: hidden;
@@ -489,16 +466,26 @@ a, button, input {
   background-color: #6a511e;
   color: white;
   padding: 20px 0;
+  text-align: center;
+}
+
+.-instagram {
+  font-size: 24px;
+}
+
+.footer a:hover {
+  opacity: 0.6;
 }
 
 .footer__text {
-  text-align: center;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 
 /* categoryPage */
 .categoryPage {
-  padding: 100px 0 0;
+  padding: 50px 0 0;
 }
 
 .categoryPage__items {
@@ -509,17 +496,15 @@ a, button, input {
 }
 
 .categoryPage__item {
-  border: 1px solid #ede3d7;
   margin: 0 0 70px;
   max-width: 230px;
-  padding: 10px;
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
 .categoryPage__item:hover {
-  border: 1px solid #332f2f;
+  color: #e0bc75;
 }
 
 .categoryPage__item a {
@@ -622,4 +607,87 @@ form {
   border: 1px solid #332f2f;
   background-color: #ede3d7;
   color: #332f2f;
+}
+
+
+/* aboutPage */
+.aboutPage__container {
+  padding: 50px 0 0;
+}
+
+.aboutPage__container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 70px 0 0;
+  width: 100%;
+}
+
+.aboutPage__textWrapper {
+  margin: 50px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.aboutPage__text {
+  line-height: 1.6;
+}
+
+
+/* informationPage */
+.informationPage__container {
+  padding: 50px 0 0;
+}
+
+.informationPage__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 70px 0;
+
+}
+
+.informationPage__item {
+  margin: 20px 0;
+  max-width: 310px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.informationPage__item:hover {
+  color: #e0bc75;
+}
+
+.informationPage__item__imgWrapper img {
+  height: 100%;
+  max-height: 200px;
+  max-width: 310px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.informationPage__item__title {
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 10px 0;
+}
+
+.informationPage__item__tagWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informationPage__item__date {
+  padding: 10px 10px 0 0;
+}
+
+.informationPage__item a {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent:-999px;
+  width: 100%;
+  z-index: 2;
 }
