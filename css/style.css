@@ -691,3 +691,57 @@ form {
   width: 100%;
   z-index: 2;
 }
+
+
+/* informationSingle */
+.informationSingle {
+  padding: 70px 0 0;
+}
+
+.informationSingle__container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 70px 0 0;
+  width: 100%;
+}
+
+.informationSingle__title {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.informationSingle__tagWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.informationSingle__date {
+  line-height: 31px;
+  padding: 0 10px 0 0;
+}
+
+.informationSingle__tag:hover {
+  background-color: #e4d1ad;
+  color: #332f2f;
+}
+
+.informationSingle img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  max-height: 400px;
+  max-width: 700px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.informationSingle__textWrapper {
+  font-size: 24px;
+  margin: 50px 0;
+}
+
+.informationSingle__textWrapper p {
+  line-height: 1.4;
+  padding: 10px 0;
+}
