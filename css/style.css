@@ -584,6 +584,7 @@ a, button, input {
 
 .categorySingle__title {
   font-size: 30px;
+  line-height: 1.4
 }
 
 .categorySingle__detail {
@@ -872,7 +873,11 @@ form {
     font-size: 30px;
     line-height: 180px;
   }  
-  
+
+  .categorySingle {
+    padding: 200px 0 100px;
+  }
+    
   .related__item {
     max-width: 230px;
     position: relative;
@@ -1183,16 +1188,10 @@ form {
 }
 
 
-/* iPhoneX 縦*/
-@media screen and (max-width: 568px) {
-  .mv {
-    background-image: url(../images/mv.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 0px;
-    height: 100vh;
-    margin: 0 auto;
-    object-fit: cover;
+/* iPhone6/7/8 Plus縦*/
+@media screen and (max-width: 414px) {
+  .header {
+    display: none;
   }
 
   .info__container {
@@ -1219,6 +1218,145 @@ form {
     width: 100%;
   }  
 
+  .shop__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 180px;
+  }
+  
+  .shop__item {
+    margin: 0 0 40px;
+    max-width: 180px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .categoryPage__items::before {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 0;
+    order: 1;
+  }
+  
+  .categoryPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 180px;
+  }
+  
+  .categoryPage__item {
+    margin: 0 0 40px;
+    max-width: 180px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .categorySingle__img {
+    margin: 0 50px 0 0;
+  }
+
+  .informationPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 180px;
+  }
+  
+  .informationPage__item {
+    margin: 20px 0;
+    max-width: 180px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .informationPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 180px;
+  }
+  
+  .informationPage__item {
+    margin: 20px 0;
+    max-width: 180px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .informationPage__item__imgWrapper img {
+    height: 100%;
+    max-height: 100px;
+    max-width: 180px;
+    object-fit: cover;
+    width: 100%;
+  }  
+
+  .related__items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 40px;
+  }  
+
+  .related__item {
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    margin: 0 0 10px;
+  }  
+
+  .related__item img {
+    height: 100%;
+    max-height: 100px;
+    max-width: 180px;
+    width: 100%;
+
+    margin: 0 10px 0 0;
+  }      
+
+  .categorySingle__container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .categorySingle__img {
+    margin: 0 auto;
+  }
+
+  .categorySingle__textWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+
+    padding: 30px 0 0;
+  }
+
+  .categorySingle__price {
+    font-size: 20px;
+    
+    padding: 0 0 30px;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+}
+
+
+/* iPhoneX  iPhone6/7/8 縦*/
+@media screen and (max-width: 375px) {
   .shop__items::after {
     content:""; 
     display: block;
@@ -1302,7 +1440,7 @@ form {
   .related__items {
     display: flex;
     flex-direction: column;
-    margin: 0 0 70px;
+    margin: 0 0 40px;
   }  
 
   .related__item {
@@ -1324,9 +1462,178 @@ form {
     margin: 0 10px 0 0;
   }      
 
-  
+  .categorySingle__container {
+    display: flex;
+    justify-content: center;
 
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .categorySingle__img {
+    margin: 0 auto;
+  }
+
+  .categorySingle__textWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+
+    padding: 30px 0 0;
+  }
+
+  .categorySingle__price {
+    font-size: 20px;
+    
+    padding: 0 0 30px;
+  }
+
+  form {
+    margin: 0 auto;
+  }
 }
 
 
+/* iPhone5 SE 縦*/
+@media screen and (max-width: 320px) {
+  .shop__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 130px;
+  }
+  
+  .shop__item {
+    margin: 0 0 40px;
+    max-width: 130px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .categoryPage__items::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0;
+    order: 1;
+  }
+  
+  .categoryPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 130px;
+  }
+  
+  .categoryPage__item {
+    margin: 0 0 40px;
+    max-width: 130px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .categorySingle__img {
+    margin: 0 50px 0 0;
+  }
 
+  .informationPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 130px;
+  }
+  
+  .informationPage__item {
+    margin: 20px 0;
+    max-width: 130px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .informationPage__items::after {
+    content:""; 
+    display: block;
+    height: 0;
+    width: 130px;
+  }
+  
+  .informationPage__item {
+    margin: 20px 0;
+    max-width: 130px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .informationPage__item__imgWrapper img {
+    height: 100%;
+    max-height: 100px;
+    max-width: 130px;
+    object-fit: cover;
+    width: 100%;
+  }  
+
+  .related__items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 40px;
+  }  
+
+  .related__item {
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    margin: 0 0 10px;
+  }  
+
+  .related__item img {
+    height: 100%;
+    max-height: 100px;
+    max-width: 130px;
+    width: 100%;
+
+    margin: 0 10px 0 0;
+  }      
+
+  .category__item__title {
+    color: white;
+    font-size: 25px;
+    line-height: 180px;
+  }  
+
+  .categorySingle__container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .categorySingle__img {
+    margin: 0 auto;
+  }
+
+  .categorySingle__textWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+
+    padding: 30px 0 0;
+  }
+
+  .categorySingle__price {
+    font-size: 20px;
+    
+    padding: 0 0 30px;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+}
