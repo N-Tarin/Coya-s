@@ -303,10 +303,6 @@ a, button, input {
   color: #e0bc75;
 }
 
-.shop__item:nth-child( n+5 ) {
-  margin: 0;
-}
-
 .shop__item a {
   height: 100%;
   position: absolute;
