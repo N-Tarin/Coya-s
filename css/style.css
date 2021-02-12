@@ -475,21 +475,21 @@ a, button, input {
 }
 
 .-Hair {
-  background-image: url(../images/category3__sp.jpg);
+  background-image: url(../images/category3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .-Set {
-  background-image: url(../images/category4__sp.jpg);
+  background-image: url(../images/category4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .-Homeware {
-  background-image: url(../images/category5__sp.jpg);
+  background-image: url(../images/category5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -601,7 +601,7 @@ a, button, input {
 
 /* categorySingle */
 .categorySingle {
-  padding: 200px 0;
+  padding: 150px 0 100px;
 }
 
 .categorySingle__container {
@@ -623,7 +623,7 @@ a, button, input {
 .categorySingle__textWrapper {
   display: flex;
   flex-direction: column;
-  height: 380px;
+  height: 350px;
 }
 
 .categorySingle__title {
