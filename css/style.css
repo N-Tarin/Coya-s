@@ -31,6 +31,8 @@ a, button, input {
   font-family: 'EB Garamond', serif;
   transition: .3s;
   cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 
@@ -459,14 +461,14 @@ a, button, input {
 }
 
 .-Earrings {
-  background-image: url(../images/category1__sp.jpg);
+  background-image: url(../images/category1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .-Pendant {
-  background-image: url(../images/category2__sp.jpg);
+  background-image: url(../images/category2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
