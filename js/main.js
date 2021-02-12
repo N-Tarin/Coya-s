@@ -19,13 +19,14 @@ $(function() {
   
 
   // カテゴリーアコーディオン
-  $('.js__category__nav').hide();
+  $('.js__category__nav__items').hide();
   $('.js__category__button').click(function() {
-    $('.js__category__nav').toggle();
-    return false;
+      $('.js__category__nav__items').slideToggle();
+      return false;
   })
+    
 
-
+    
   // MVの中央を取得
   checkWidth = function(){
     // ブラウザの横幅を取得
