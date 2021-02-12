@@ -125,11 +125,21 @@ a, button, input {
   border-bottom: 1px solid #332f2f;
 }
 
+.header__sp__logoWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.header__sp__logo a img {
+  max-width: 100px;
+  mix-blend-mode: multiply;
+  width: 100%;
+}
+
 .header__sp__button {
   display: block;
   font-size: 30px;
-  text-align: right;
-  margin: 10px 10px 0 auto;
 }
 
 .header__sp__nav {
@@ -527,7 +537,7 @@ a, button, input {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 70px auto 70px;
+  margin: 70px auto 0px;
 }
 
 .categoryPage__items::before {
@@ -694,7 +704,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 70px 0;
+  margin: 70px 0 40px;
 }
 
 .informationPage__items::after {
@@ -850,6 +860,19 @@ form {
   text-indent:-999px;
   width: 100%;
   z-index: 2;
+}
+
+.pagination {
+  margin: 0px auto 50px;
+}
+
+.pagination__items {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__item {
+  padding: 5px;
 }
 
 
