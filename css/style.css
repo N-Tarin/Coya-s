@@ -121,7 +121,8 @@ a, button, input {
 }
 
 .header__sp__nav {
-  font-size: 20px;
+  background-color: rgb(228, 209, 173, 0.4);
+  font-size: 25px;
   margin: 0 auto;  
   text-align: center;
 }
