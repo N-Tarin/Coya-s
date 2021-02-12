@@ -135,15 +135,12 @@ a, button, input {
   color: white;
   font-size: 25px;
   margin: 0 auto;  
-  position: relative;
-  text-align: center;
-  z-index: 4;
-  -webkit-overflow-scrolling: touch;
-
   position: fixed;
   top: 50px;
   left: 0px;
   right: 0px;
+  text-align: center;
+  z-index: 4;
 }
 
 .header__sp__nav__item a,
@@ -157,9 +154,14 @@ a, button, input {
   border: none;
 }
 
+.header__sp__nav__item a i {
+  font-size: 14px;
+}
+
 .category__sp__nav__item a {
   font-size: 20px;
 }
+
 
 
 /* mv */
@@ -457,7 +459,7 @@ a, button, input {
 }
 
 .-Earrings {
-  background-image: url(../images/category2.jpg);
+  background-image: url(../images/category1\ \(2\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position-y: -130px; */
@@ -465,14 +467,14 @@ a, button, input {
 }
 
 .-Pendant {
-  background-image: url(../images/category1.jpg);
+  background-image: url(../images/category2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position-y: -130px; */
   position: relative;
 }
 
-.-Bracelets {
+.-Hair {
   background-image: url(../images/category3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -480,7 +482,7 @@ a, button, input {
   position: relative;
 }
 
-.-Setcollection {
+.-Set {
   background-image: url(../images/category4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
