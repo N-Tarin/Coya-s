@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .body {
   background-color: #ede3d7;
   color: #332f2f;
@@ -120,19 +124,42 @@ a, button, input {
   border-bottom: 1px solid #332f2f;
 }
 
+.header__sp__button {
+  display: block;
+  font-size: 30px;
+  text-align: right;
+  margin: 10px 10px 0 auto;
+}
+
 .header__sp__nav {
-  background-color: rgb(228, 209, 173, 0.4);
+  background-color: rgb(106, 81, 30, 0.6);
+  color: white;
   font-size: 25px;
   margin: 0 auto;  
+  position: relative;
   text-align: center;
+  z-index: 4;
+  -webkit-overflow-scrolling: touch;
+
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  right: 0px;
 }
 
-.header__sp__nav__item {
-  margin: 10px 0;
+.header__sp__nav__item a,
+.category__sp__nav__item a {
+  border-top: 1px solid rgb(51,47, 47, 0.5);
+  display: block;
+  padding: 10px 0;
 }
 
-.category__sp__nav__item {
-  margin: 10px 0;
+.header__sp__nav__item:first-child {
+  border: none;
+}
+
+.category__sp__nav__item a {
+  font-size: 20px;
 }
 
 
