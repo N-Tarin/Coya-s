@@ -1371,6 +1371,41 @@ form {
     margin: 0 10px 0 0;
   }      
 
+  .-Earrings {
+    background-image: url(../images/category1__sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .-Pendant {
+    background-image: url(../images/category2__sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .-Hair {
+    background-image: url(../images/category3__sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .-Set {
+    background-image: url(../images/category4__sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .-Homeware {
+    background-image: url(../images/category5__sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }  
+
   .categorySingle__container {
     display: flex;
     justify-content: center;
