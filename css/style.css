@@ -459,42 +459,37 @@ a, button, input {
 }
 
 .-Earrings {
-  background-image: url(../images/category1\ \(2\).jpg);
+  background-image: url(../images/category1__sp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -130px; */
   position: relative;
 }
 
 .-Pendant {
-  background-image: url(../images/category2.jpg);
+  background-image: url(../images/category2__sp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -130px; */
   position: relative;
 }
 
 .-Hair {
-  background-image: url(../images/category3.jpg);
+  background-image: url(../images/category3__sp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -100px; */
   position: relative;
 }
 
 .-Set {
-  background-image: url(../images/category4.jpg);
+  background-image: url(../images/category4__sp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -70px; */
   position: relative;
 }
 
 .-Homeware {
-  background-image: url(../images/category5.jpg);
+  background-image: url(../images/category5__sp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -130px; */
   position: relative;
 }
 
