@@ -4,10 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+  <?php wp_head(); ?>
   <title>Coya's Handmade</title>
 </head>
 <body>
@@ -162,42 +159,3 @@
         </ul><!-- /.header__sp__nav__items -->
       </nav><!-- /.header__sp__nav -->
     </header><!-- /.header -->
-
-
-    <section class="aboutPage">
-      <div class="wrapper">
-        <div class="container aboutPage__container">
-          <h2 class="title">
-            About
-          </h2><!-- /.title -->
-
-          <img src="<?php echo get_template_directory_uri() ?>/images/about.jpg" alt="">
-          <div class="aboutPage__textWrapper">
-            <p class="aboutPage__text">
-              ナチュラル、グリーン、アロマなど自然体が好き。将来は海の近くでほのぼのとした生活を送るのが夢です。現在マレーシア在住4年目。趣味の延長で、ハンドメイドジュエリー始めました。ハンドメイド好きの方、海外好きの方、仲良くしてください :)
-            </p><!-- /.aboutPage__text -->
-          </div><!-- /.aboutPage__textWrapper -->
-        </div><!-- /.container -->
-      </div><!-- /.wrapper -->
-    </section><!-- /.aboutPage -->
-
-
-    <footer class="footer">
-      <a href="https://www.instagram.com/artwork_coyas/?hl=ja">
-        <i class="-instagram fab fa-instagram"></i>
-      </a>
-      <p class="footer__text">
-        &copy; 2021,  
-        <a href="./index.html">
-          Coya's Handmade
-        </a>
-      </p><!-- /.footer__text -->
-    </footer><!-- /.footer -->
-
-  </div><!-- /.body -->
-
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script src="./js/main.js"></script>
-  <script src="https://kit.fontawesome.com/59f9f0717a.js" crossorigin="anonymous"></script>
-</body>
-</html>

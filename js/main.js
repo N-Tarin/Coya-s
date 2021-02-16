@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($){
 
   //下からフェードイン
   $(window).on('load scroll',function (){
