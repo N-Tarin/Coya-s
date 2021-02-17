@@ -12,7 +12,7 @@
 
   </div><!-- /.body -->
 
-  <!-- <script src="https://kit.fontawesome.com/59f9f0717a.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/59f9f0717a.js" crossorigin="anonymous"></script>
   <?php wp_footer(); ?>
 </body>
 </html>

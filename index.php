@@ -2,7 +2,7 @@
 
 <section class="mv">
   <div class="mv__logo">
-    <img class="animation-bottom" src="./images/logo.png" alt="">
+    <img class="animation-bottom" src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="">
   </div><!-- /.mv__logo -->
 </section><!-- /.mv -->
 
